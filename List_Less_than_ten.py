@@ -1,4 +1,21 @@
-#Create lists
+# Simple Solution
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+# basic problem:
+for x in a:
+    if x< 5: print(x)
+
+# combine challenges 1 and 2:
+print( [ x for x in a if x<5 ] )
+
+
+
+
+
+#---------------------------------------------------------------------
+# And here is a sample solution that solves the exercise with extra 3. 
+
+# Create lists
 numbers = [7,3,13,6,8,5,1,2,4,15,9,10,12,14,11]
 lessFnums = []
 lessNnums =[]
